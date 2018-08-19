@@ -1,9 +1,25 @@
+https://docs.angularjs.org/api/ngResource/service/$resource
+https://developer.okta.com/blog/2018/04/26/build-crud-app-aspnetcore-angular
+http://www.talkingdotnet.com/bind-select-dropdown-list-in-angular-4-and-5/
+
+##############Command######################
+npm install -g @angular/cli
+
+ng new myapp
+cd myapp
+ng build
+ng serve
+
+ng generate component Home
+
+#####################################################
+
 1.No need for complicated Posts, use this the angular window object instead of the location object:
 
 $window.location.assign("/ControllerName/ActionName");
 
 $resource('host/ControllerName/ActionName').get();
-
+this.http.post('http://localhost:your_port/Account/Login', ...
 ###################################
 
 $http({
