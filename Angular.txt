@@ -33,3 +33,10 @@ $http({
 }, function (result) {
     // Error
 });
+
+
+http://www.agiratech.com/angular-typescript-modal-window/
+<div class="backdrop" [ngStyle]="{'display':display}"></div>
+
+
+<div class="modal" tabindex="-1" role="dialog"  [ngStyle]="{'display':display}">
